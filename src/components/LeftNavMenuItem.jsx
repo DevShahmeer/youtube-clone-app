@@ -1,6 +1,6 @@
 import React from 'react'
 
-const LeftNavMenuIte = ({text, icon, className, action}) => {
+const LeftNavMenuItem = ({text, icon, className, action}) => {
   return (
     <div onClick={action} className={"text-white text-sm cursor-pointer h-10 flex items-center mb-[1px] rounded-lg hover:bg-white/[0.15] " + className}>
       
@@ -10,4 +10,4 @@ const LeftNavMenuIte = ({text, icon, className, action}) => {
   )
 }
 
-export default LeftNavMenuIte
+export default LeftNavMenuItem
