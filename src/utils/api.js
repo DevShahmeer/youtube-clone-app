@@ -16,7 +16,7 @@ const options = {
   },
   headers: {
     // API key to authenticate the request
-    'X-RapidAPI-Key': '0f334e3949mshf60fb99d3023f71p1a7730jsn69f8e56ec1da',
+    'X-RapidAPI-Key': (Add Here YOUR RAPID Youtube API Key),
     // Host address for the RapidAPI service
     'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
   }
